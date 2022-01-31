@@ -1,0 +1,82 @@
+.header{
+    width : 600px;
+    margin : 0 auto;
+    background-color : rgb(70, 0, 128);
+    height : 60px;
+}
+ 
+.header_titre {
+    color : white;
+    text-align : center;
+    margin-bottom : -20px;
+    font-size : 28px;
+}
+ 
+body {
+    margin : 0;
+}
+ 
+.taches_input {
+    width : 600px;
+    margin : 0 auto;
+    margin-top : 40px;
+    display : grid;
+    grid-template-columns:  8fr 2fr;
+}
+ 
+#inserer {
+    height : 45px;
+}
+ 
+#envoyer {
+    background-color : green;
+    height : 45px;
+    border-radius: 10%;
+    color: white;
+    margin-left: 15px;
+}
+ 
+ 
+.taches {
+    width : 600px;
+    color: white;
+    border: 1px solid rgb(2, 36, 230);
+    margin : 0 auto;
+    margin-top : 30px;
+    border-collapse : collapse
+}
+ 
+th {
+    border: 1px solid rgb(255, 255, 255);
+    padding : 10px;
+}
+ 
+td {
+    border : 1px solid green;
+    text-align : center;
+    padding : 10px;
+}
+ 
+.suppr {
+    color : red;
+    text-decoration : none;
+ 
+}
+ 
+.suppr:hover {
+    color : red;
+    text-decoration : none;
+}
+
+.modif{
+    color : rgb(255, 217, 0);
+    text-decoration : none;
+}
+
+.modif:hover {
+    color : rgb(255, 217, 0);
+    text-decoration : none;
+}
+html{
+    background-color: rgb(0, 110, 255);
+}
